@@ -24,7 +24,7 @@ import com.zoopa.brain.utility.SeriesUtil;
 import java.io.IOException;
 import java.util.List;
 
-import interfaces.OnSeriesChangeListener;
+import com.zoopa.brain.interfaces.OnSeriesChangeListener;
 
 public class SeriesBrainActivity extends Activity {
     private final static int MENU_DELETE = Menu.FIRST;

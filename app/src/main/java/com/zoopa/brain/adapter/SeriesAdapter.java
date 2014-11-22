@@ -19,7 +19,7 @@ import com.zoopa.brain.model.Series;
 
 import java.util.List;
 
-import interfaces.OnSeriesChangeListener;
+import com.zoopa.brain.interfaces.OnSeriesChangeListener;
 
 public class SeriesAdapter extends BaseExpandableListAdapter implements OnSeriesChangeListener {
     private List<Series> seriesList;

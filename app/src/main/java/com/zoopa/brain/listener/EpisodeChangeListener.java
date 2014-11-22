@@ -4,7 +4,7 @@ import android.view.View;
 
 import com.zoopa.brain.model.Series;
 
-import interfaces.OnSeriesChangeListener;
+import com.zoopa.brain.interfaces.OnSeriesChangeListener;
 
 public class EpisodeChangeListener implements View.OnClickListener {
     private Series series;

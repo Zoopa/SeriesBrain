@@ -1,4 +1,4 @@
-package interfaces;
+package com.zoopa.brain.interfaces;
 
 import com.zoopa.brain.model.Series;
 
