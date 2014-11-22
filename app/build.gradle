@@ -1,0 +1,32 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.1"
+
+    defaultConfig {
+        applicationId "com.zoopa.brain"
+        minSdkVersion 15
+        targetSdkVersion 21
+        versionCode 3
+        versionName "3.0"
+    }
+
+    buildTypes {
+        release {
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+repositories{
+    maven {
+        url 'http://dl.bintray.com/amulyakhare/maven'
+    }
+}
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:21.0.+'
+    compile 'com.amulyakhare:com.amulyakhare.textdrawable:1.0.0'
+}

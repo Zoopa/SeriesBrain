@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="drawable_plus_one">#67bf74</color>
+    <color name="drawable_minus_one">#f16364</color>
+    <color name="drawable_title">#f9a43e</color>
+</resources>

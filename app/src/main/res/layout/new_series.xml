@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:paddingLeft="15dp"
+  android:paddingRight="15dp"
+  android:paddingTop="15dp"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  
+  	<LinearLayout
+        android:background="@drawable/selector_card_background"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+  		android:orientation="vertical"
+        android:layout_marginBottom="20dp"
+  		android:padding="5dp">
+		
+	    <TextView
+            android:text="@string/series_name"
+	    	android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+	    	
+	    <EditText
+            android:hint="..."
+	    	android:id="@+id/newSeriesName" 
+	        android:inputType="text"
+	    	android:layout_height="0dip"
+	    	android:layout_width="match_parent"
+	    	android:layout_weight="1" />
+	</LinearLayout>
+
+    <LinearLayout
+        android:baselineAligned="false"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_marginRight="5dp"
+            android:background="@drawable/selector_card_background"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:padding="5dp">
+
+            <TextView
+                android:text="@string/season"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:hint="1"
+                android:inputType="number"
+                android:id="@+id/newSeriesSeason"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/selector_card_background"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:padding="5dp">
+
+            <TextView
+                android:text="@string/episode"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:hint="1"
+                android:inputType="number"
+                android:id="@+id/newSeriesEpisode"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right" />
+        </LinearLayout>
+
+     </LinearLayout>
+
+	<LinearLayout
+        style="?android:buttonBarStyle"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+  		android:orientation="horizontal">
+		
+        <Button
+            style="?android:buttonBarButtonStyle"
+            android:text="@string/save"
+            android:id="@+id/saveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5" />
+
+        <Button
+            style="?android:buttonBarButtonStyle"
+            android:text="@string/cancel"
+            android:id="@+id/cancelButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5" />
+	</LinearLayout>
+</LinearLayout>
