@@ -1,6 +1,6 @@
 SeriesBrain
 ===========
 
-![Series Overview](screenshots/overview.jpg)
-![Update Series](screenshots/update.jpg)
-![Add Series](screenshots/add.jpg)
+![Series Overview](screenshots/overview.png)
+![Update Series](screenshots/update.png)
+![Add Series](screenshots/add.png)
