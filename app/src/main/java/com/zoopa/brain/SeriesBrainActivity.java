@@ -60,14 +60,6 @@ public class SeriesBrainActivity extends Activity {
             }
         });
 
-        seriesListView.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
-            @Override
-            public boolean onChildClick(ExpandableListView parent, View v, int groupPosition, int childPosition, long id) {
-                Log.d("EE", v.toString());
-                return true;
-            }
-        });
-
         registerForContextMenu(seriesListView);
     }
 
